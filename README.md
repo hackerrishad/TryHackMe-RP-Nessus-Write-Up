@@ -7,13 +7,13 @@ Deploy the vulnerable machine! This one, well, it has problems.
 
 ### #1 	Deploy the virtual machine!
 
-No answer needed
+    No answer needed
 
 ## [Task 2] Installation
 
 ### #1 	First, create a basic Ubuntu box (or any other system of your choice). Minimum 4 2GHz cores, 4 GB RAM (8 Recommended) and 30 GB of disk space.
 
-No answer needed
+    No answer needed
 
 ### #2 	Next, go ahead and register for a Nessus Home license. This can be used to scan up to 16 IP addresses at a time. Be sure to keep this license information safe, you'll need it for any manual work. Here's the registration link: https://www.tenable.com/products/nessus-home
 
@@ -21,7 +21,7 @@ No answer needed
 
 ### #3 	Follow the installation instructions on Tenable's website, once Nessus is set up connect the machine that it lives on to the network using your VPN file.
 
-No answer needed 
+    No answer needed 
 
 ## [Task 3] Nessus Quiz
 
