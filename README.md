@@ -57,6 +57,45 @@ Answer: Credentialed Patch Audit
 
 Answer: Web Application Tests
 
+## [Task 4] Scanning!
+
+Run a basic network scan and learn to read through the results!
+
+### #1 	Deploy the machine and connect to the network
+
+No answer needed
+
+### #2 	Create a new 'Basic Network Scan' targeting the deployed VM. What option can we set under 'BASIC' to set a time for this scan to run? This can be very useful when network congestion is an issue.
+
+answer: Schedule
+
+### #3  Under discovery set the scan to cover ports 1-65535. What is this type called?
+
+answer: Port scan (all ports)
+
+### #4 	As we are connected to the network via a VPN, it may be to our benefit to 'tone down' the scan a bit. What scan type can we change to under 'ADVANCED' for this lower bandwidth connection?
+
+Answer: Scan low bandwidth links
+
+### #5 	With these options set (other than the time to run) save and launch the scan.
+
+No answer needed
+
+### #6 	After the scan completes, which 'Vulnerability' can we view the details of to see the open ports on this host?
+
+Answer: Nessus SYN scanner
+
+### #7 	There seems to be a chat server running on this machine, what port is it on?
+
+Answer: 6667
+
+### #8 	Looks like we have a medium level vulnerability relating to SSH, what is this vulnerability named? 
+
+Answer: SSH Weak Algorithms Supported
+
+### #9 	What web server type and version is reported by Nessus?
+
+Answer: Apache/2.4.99
 
 
 
