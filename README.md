@@ -97,5 +97,43 @@ Answer: SSH Weak Algorithms Supported
 
 Answer: Apache/2.4.99
 
+## [Task 5] Wait, there's mail?
 
+Add SMTP functionality into your Nessus install!
+
+### #1 	An optional but awesome additional step, link your Nessus box up to an SMTP server via the Settings panel. Google provides this for free if you already have a Gmail account. Adding 2-factor authentication on your account and create an app password, then link Nessus to the Gmail SMTP server via these following settings: https://www.siteground.com/kb/google_free_smtp_server/
+
+No answer needed
+
+## [Task 6] So you're telling me that's how you set up a web app...
+
+Run a Web App scan against a very secure web application that has absolutely no problems!
+
+### #1 	Run a web application scan against this new box.
+
+No answer needed
+
+### #2 	What is the plugin id of the plugin that determines the HTTP server type and version? 
+
+Answer: 10107
+
+### #3 	What authentication page is discovered by the scanner that transmits credentials in cleartext?
+
+Answer: login.php
+
+### #4 	What is the file extension of the config backup?
+
+answer: .bak
+
+### #5 	Which directory contains example documents? (This will be in a php directory)
+
+answer: /external/phpids/0.6/docs/examples/
+
+### #6 	What vulnerability is this application susceptible to that is associated with X-Frame-Options?
+
+answer: Clickjacking
+
+### #7 	What version of php is the server using?
+
+answer: 5.5.9-1ubuntu4.26
 
